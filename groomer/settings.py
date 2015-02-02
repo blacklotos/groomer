@@ -125,7 +125,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
-    'registration',
+    'reg',
     'photo_albums',
     'generic_images',
     'gr_profile',
@@ -165,3 +165,4 @@ REGISTRATION_OPEN = True            # If True, users can register
 LOGIN_REDIRECT_URL = '/'            # The page you want users to arrive at after they successful log in#  and are trying to access pages requiring authentication
 LOGIN_URL = '/accounts/login/'      #The page users are directed to if they are not logged in,
                                     # and are trying to access pages requiring authentication
+ACCOUNT_ACTIVATION_DAYS = 7
