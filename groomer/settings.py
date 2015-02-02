@@ -157,4 +157,7 @@ LOGGING = {
     }
 }
 
-REGISTRATION_OPEN = True                # If True, users can register                                                    # and are trying to access pages requiring authentication
+REGISTRATION_OPEN = True            # If True, users can register
+LOGIN_REDIRECT_URL = '/'            # The page you want users to arrive at after they successful log in#  and are trying to access pages requiring authentication
+LOGIN_URL = '/accounts/login/'      #The page users are directed to if they are not logged in,
+                                    # and are trying to access pages requiring authentication
